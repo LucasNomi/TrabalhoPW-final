@@ -1,3 +1,15 @@
 body{
     font-family: 'Rubik', sans-serif;
 }
+/* grid 960px */
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
