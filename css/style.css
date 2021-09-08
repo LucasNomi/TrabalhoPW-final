@@ -3,7 +3,7 @@ body{
 }
 
 a:link, a:active, a:visited{
-    color: #315e8a;
+    color: #E2322B;
     text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ section{
 
 h1.logo{
     font-weight: 700;
-    color: #315e8a;
+    color: #E2322B;
     letter-spacing: -2px;
 }
 
@@ -132,8 +132,8 @@ h1.logo{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: #1f3c58;
-    color:#ebebeb;
+    background: #E2322B;
+    color:#FFFEFF;
     padding: 20px 0;
     text-align: center;
     font-weight: 300;
@@ -152,6 +152,6 @@ h1.logo{
 
 .menu li a:hover{
     text-decoration: none;
-    background: #1f3c58;
-    color: #ebebeb;
+    background: #CB2A27;
+    color: #FFFEFF;
 }
