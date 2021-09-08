@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="../../../img/pastel.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../../../css/style.css" />
 </head>
 <body>
@@ -19,8 +20,8 @@
                 <div class="coluna col8">
                     <nav>
                         <ul class="menu inline sem-marcador">
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="produtos/produtos.html">PRODUTOS</a></li>
+                            <li><a href="../../../index.html">HOME</a></li>
+                            <li><a href="../../../produtos/produtos.html">PRODUTOS</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -31,13 +32,19 @@
         <section>
             <div class="coluna col5">
                 <img src="../../../img/pastel-carne.jpg" alt="" class="img-showcase"/>
-                <h2>Pastel de Carne</h2>
+                <h3>Pastel de Carne</h3>
             </div>
             <div class="coluna col7 sidebar">
-                <h3>Encomende!!</h3>
+                <h2>Encomende!!</h2>
                 <ul class="sem-marcador sem-padding">
                    <form action="">
-                       
+                        <label for="nome">Seu Nome:</label>
+                        <input type="text" name="nome" id="nome">
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" name="endereco" id="endereco">
+                        <label for="numero">Número Telefone:</label>
+                        <input type="tel" name="numero" id="numero">
+                        <input type="submit" class="botao" name="enviar" value="Pedir">
                    </form>
                 </ul>
             </div>
