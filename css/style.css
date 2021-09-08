@@ -115,7 +115,9 @@ img{
 
 
 /* layout do site */
-
+section{
+    margin-top: 50px;
+}
 .header{
     background: #dee3e6;
 }
@@ -136,7 +138,6 @@ h1.logo{
     text-align: center;
     font-weight: 300;
 }
-
 
 .menu{
     text-transform: uppercase;
