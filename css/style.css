@@ -155,3 +155,42 @@ h1.logo{
     background: #CB2A27;
     color: #FFFEFF;
 }
+
+input.botao{
+    background: #CB2A27;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #FFFEFF;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+
+input.botao:hover{
+    background: #E2322B;
+    text-decoration: none;
+}
+
+.entrega{
+    position: relative;
+    bottom: 19px;
+}
+
+.entrega label{
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.entrega input{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width: 96%;
+}
+
+.entrega input.botao{
+    width: auto;
+
+}
